@@ -39,7 +39,7 @@
               <a href="https://cogconfluence.com">Sarah Schwettmann</a><sup>1*</sup>,</span>
             <span class="author-block">
               <a href="https://tamarott.github.io/">Tamar Rott Shaham</a><sup>1*</sup>,</span>
-		<br>
+		        <br>
             <span class="author-block">
               <a href="https://joaanna.github.io/">Joanna Materzynska</a><sup>1</sup>,</span>
             <span class="author-block">
@@ -131,15 +131,16 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-Labeling neural network submodules with human-legible descriptions is useful for many downstream tasks: such descriptions can surface failures, guide interventions, and perhaps even explain important model behaviors. To date, most mechanistic descriptions of trained networks have involved small models, narrowly delimited phenomena, and large amounts of human labor. Labeling all human-interpretable sub-computations in models of increasing size and complexity will almost certainly require tools that can generate and validate descriptions automatically. Recently, techniques that use learned models in-the-loop for labeling have begun to gain traction, but methods for evaluating their efficacy are limited and ad-hoc. How should we validate and compare open-ended labeling tools? This paper introduces <b>FIND</b> (Function INterpretation and Description), a benchmark suite for evaluating the building blocks of automated interpretability methods. FIND contains functions that resemble components of trained neural networks, and accompanying descriptions of the kind we seek to generate. The functions are procedurally constructed across textual and numeric domains, and involve a range of real-world complexities, including noise, composition, approximation, and bias. We evaluate new and existing methods that use language models (LMs) to produce code-based and language descriptions of function behavior. We find that an off-the-shelf LM augmented with only black-box access to functions can sometimes infer their structure, acting as a scientist by forming hypotheses, proposing experiments, and updating descriptions in light of new data. However, LM-based descriptions tend to capture global function behavior and miss local corruptions. These results show that FIND will be useful for characterizing the performance of more sophisticated interpretability methods before they are applied to real-world models.
+          Labeling neural network submodules with human-legible descriptions is useful for many downstream tasks: such descriptions can surface failures, guide interventions, and perhaps even explain important model behaviors. To date, most mechanistic descriptions of trained networks have involved small models, narrowly delimited phenomena, and large amounts of human labor. Labeling all human-interpretable sub-computations in models of increasing size and complexity will almost certainly require tools that can generate and validate descriptions automatically. Recently, techniques that use learned models in-the-loop for labeling have begun to gain traction, but methods for evaluating their efficacy are limited and ad-hoc. How should we validate and compare open-ended labeling tools? This paper introduces <b>FIND</b> (<b>F</b>unction <b>IN</b>terpretation and <b>D</b>escription), a benchmark suite for evaluating the building blocks of automated interpretability methods. FIND contains functions that resemble components of trained neural networks, and accompanying descriptions of the kind we seek to generate. The functions are procedurally constructed across textual and numeric domains, and involve a range of real-world complexities, including noise, composition, approximation, and bias. We evaluate new and existing methods that use language models (LMs) to produce code-based and language descriptions of function behavior. We find that an off-the-shelf LM augmented with only black-box access to functions can sometimes infer their structure, acting as a scientist by forming hypotheses, proposing experiments, and updating descriptions in light of new data. However, LM-based descriptions tend to capture global function behavior and miss local corruptions. These results show that FIND will be useful for characterizing the performance of more sophisticated interpretability methods before they are applied to real-world models.
           </p>
+          <hr>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
   </div>
 </section>
-<hr>
+
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
